@@ -5,8 +5,10 @@
 const tuaMail = prompt('Inserisci la tua email');
 console.log(tuaMail);
 
-// 2-Controlla che sia nella lista di chi può accedere
-const email = [' '+'@gmail.com', '@libero.it', '@hotmail.com'];
+document.getElementById('casella').innerHTML = tuaMail ;
+
+// 2-Controlla che sia nella lista di chi può accedere + // 3-Stampa un messaggio appropriato sull’esito del controllo  
+const email = ['@gmail.com', '@libero.it', '@hotmail.com'];
 
 let sentinella = false;
 
@@ -18,11 +20,12 @@ for (let i = 0; i < email.length; i++) {
 
 if (sentinella) {
     console.log('Consentito');
+    document.getElementById('logIn').innerHTML = 'Consentito' ;
     } else {
         console.log ('Negato');
+        document.getElementById('logIn').innerHTML = 'Negato' ;
     }
 
-// 3-Stampa un messaggio appropriato sull’esito del controllo  
-document.getElementById('casella').innerHTML = tuaMail ;
 
-document.getElementById('logIn').innerHTML = ' BOH PROVA' ;
+
+
