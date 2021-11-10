@@ -5,36 +5,32 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: monospace;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #f8f8f8;
+    font-size: 20px;
 }
 
 .contenitore {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     background-color: rgb(125, 135, 145);
     text-align: center;
 }
 
-
 .boxPrima {
     margin: 10px 0 10px 0;
-
     display: flex;
     justify-content: center;
     background-color: rgb(56, 56, 56);
 }
 
 .box {
-    /*background-color:deepskyblue;*/
     margin: 0 30px 0 0;
     padding: 10px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,20 +41,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-weight: bold;
     font-size: 20px;
-
     background-color: white;
-
     margin: 10px 0 10px 0;
-
     height: 70px;
     width: 70px;
     border-radius: 5px;
-
     box-shadow: 2px 2px 15px 2px #000000;
-
 }
 
 .punto {
@@ -66,11 +56,12 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color:black;
+    background-color: black;
     margin: 0 7px 0 7px;
 }
 
-#resultPc , #resultGioc {
+#resultPc,
+#resultGioc {
     font-weight: bold;
     font-size: 30px;
 }
