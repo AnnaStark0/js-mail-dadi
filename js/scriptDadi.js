@@ -15,6 +15,14 @@ console.log (numGiocatore);
 
 
 
+//2-Stabilire il vincitore, in base a chi fa il punteggio più alto.
+let vincitore;
 
-// il pc genera un num random,
-// fare funzione, memorizzare numero. dopo di che si apre il prompt x il giocatore
+//PROVA 1 -if ((numPc > numGiocatore) || (numGiocatore > numPc)) {
+
+//PROVA 2-
+if (numPc > numGiocatore) {
+...
+} else {
+    (numGiocatore > numPc)
+}
