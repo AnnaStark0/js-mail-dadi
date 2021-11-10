@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: arial;
+}
+
+.contenitore {
+    width: 70%;
+    margin: 0 auto;
+    background-color: slategray;
+    text-align: center;
+}
+
+
+.boxPrima {
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    background-color: tomato;
+}
+
+.box {
+    background-color: springgreen;
+    margin: 0 30px 0 0;
+}
+
+.dado {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
