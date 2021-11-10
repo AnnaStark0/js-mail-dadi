@@ -25,7 +25,7 @@ if (numPc > numGiocatore) {
     console.log('Ha vinto il computer!');
     document.getElementById('result').innerHTML = 'Ha vinto il computer!' ;
 } else {
-    (numGiocatore > numPc) {
+ {
         console.log('Hai Vinto!');
         document.getElementById('result').innerHTML = 'Hai Vinto!' ;
     }
