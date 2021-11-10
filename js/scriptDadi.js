@@ -19,7 +19,9 @@ console.log (numGiocatore);
 
 //2-Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
-if (numPc > numGiocatore) {
+
+//Risultato senza condizione di uguaglianza
+/*if (numPc > numGiocatore) {
     console.log('Ha vinto il computer!');
     document.getElementById('result').innerHTML = 'Ha vinto il computer!' ;
 } else {
@@ -27,7 +29,15 @@ if (numPc > numGiocatore) {
         console.log('Hai Vinto!');
         document.getElementById('result').innerHTML = 'Hai Vinto!' ;
     }
+}*/
+
+if (numPc > numGiocatore) {
+    console.log('Ha vinto il computer!');
+    document.getElementById('result').innerHTML = 'Ha vinto il computer!' ;
+} else if (numGiocatore > numPc) {
+    console.log('Hai Vinto!');
+    document.getElementById('result').innerHTML = 'Hai Vinto!' ;
+} else if  (numGiocatore = numPc) {
+    console.log('Hai Pareggiato!');
+    document.getElementById('result').innerHTML = 'Hai Pareggiato!' ; 
 }
-
-
-//Promemoria: Non ho inserito la condizione di uguaglianza fra i due risultati!
