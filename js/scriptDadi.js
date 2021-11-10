@@ -16,13 +16,17 @@ console.log (numGiocatore);
 
 
 //2-Stabilire il vincitore, in base a chi fa il punteggio più alto.
-let vincitore;
 
-//PROVA 1 -if ((numPc > numGiocatore) || (numGiocatore > numPc)) {
+//let vincitore;
+
 
 //PROVA 2-
 if (numPc > numGiocatore) {
-...
+    console.log('Ha vinto il computer!');
+    document.getElementById('result').innerHTML = 'Ha vinto il computer!' ;
 } else {
-    (numGiocatore > numPc)
+    (numGiocatore > numPc) {
+        console.log('Hai Vinto!');
+        document.getElementById('result').innerHTML = 'Hai Vinto!' ;
+    }
 }
