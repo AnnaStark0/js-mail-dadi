@@ -12,20 +12,28 @@ body {
     min-height: 100vh;
     background-color: #f8f8f8;
     font-size: 20px;
+  
 }
 
 .contenitore {
-    width: 90%;
+    width: 450px;
+    height: 460px;
     margin: 0 auto;
-    background-color: rgb(125, 135, 145);
+    background-image: url("../img/dice2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*background-color: rgb(125, 135, 145);*/
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.boxPrima {
+.boxDue {
     margin: 10px 0 10px 0;
     display: flex;
     justify-content: center;
-    background-color: rgb(56, 56, 56);
+    /*background-color: rgb(56, 56, 56);*/
 }
 
 .box {
@@ -35,6 +43,22 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.rowUno {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.rowTre {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 150px;
+    padding-bottom: 30px;
 }
 
 .dado {
@@ -70,3 +94,8 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
+
+h1 {
+    padding-bottom: 10px;
+}
+
